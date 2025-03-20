@@ -155,6 +155,7 @@ function groups.get(contrast)
     Normal = { fg = colors.fg0, bg = colors.bg0 }, -- normal text
     NormalNC = { link = "Normal" },
     NormalFloat = { fg = colors.fg1, bg = colors.bg3 },
+    FloatTitle = { fg = colors.red },
 
     Question = { fg = colors.yellow }, -- hit-enter prompt and yes/no questions
 
