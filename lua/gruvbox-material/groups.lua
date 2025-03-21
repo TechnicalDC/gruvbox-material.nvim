@@ -150,7 +150,7 @@ function groups.get(contrast)
 
     -- Popup menu
     Pmenu = { fg = colors.fg1 }, -- normal item
-    PmenuSel = { fg = colors.bg3, bg = colors.bg3 }, -- selected item
+    PmenuSel = { bg = colors.bg3 }, -- selected item
     PmenuSbar = { bg = colors.bg3 }, -- scrollbar
     PmenuThumb = { bg = colors.grey0 }, -- Thumb of the scrollbar
     PmenuKind = { fg = colors.fg1 },
