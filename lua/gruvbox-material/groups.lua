@@ -149,7 +149,7 @@ function groups.get(contrast)
     WinSeparator = { fg = colors.bg5 },
 
     -- Popup menu
-    Pmenu = { fg = colors.fg1, bg = colors.bg3 }, -- normal item
+    Pmenu = { fg = colors.fg1 }, -- normal item
     PmenuSel = { fg = colors.bg3, bg = colors.grey2 }, -- selected item
     PmenuSbar = { bg = colors.bg3 }, -- scrollbar
     PmenuThumb = { bg = colors.grey0 }, -- Thumb of the scrollbar
