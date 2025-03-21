@@ -153,6 +153,7 @@ function groups.get(contrast)
     PmenuSel = { fg = colors.bg3, bg = colors.grey2 }, -- selected item
     PmenuSbar = { bg = colors.bg3 }, -- scrollbar
     PmenuThumb = { bg = colors.grey0 }, -- Thumb of the scrollbar
+    PmenuKind = { fg = colors.fg1, bg = colors.bg3 },
 
     Normal = { fg = colors.fg0, bg = colors.bg0 }, -- normal text
     NormalNC = { link = "Normal" },
@@ -639,6 +640,28 @@ function groups.get(contrast)
     NoiceSplit                         = { link = "NormalFloat" },
     NoiceSplitBorder                   = { link = "FloatBorder" },
     NoiceVirtualText                   = { link = "DiagnosticVirtualTextInfo" },
+
+    -- Saghen/blink.cmp
+    BlinkCmpMenu                         = { link = "Pmenu" },
+    BlinkCmpMenuBorder                   = { link = "Pmenu" },
+    BlinkCmpMenuSelection                = { link = "PmenuSel" },
+    BlinkCmpScrollBarThumb               = { link = "PmenuThumb" },
+    BlinkCmpScrollBarGutter              = { link = "PmenuSbar" },
+    BlinkCmpLabel                        = { link = "Pmenu" },
+    BlinkCmpLabelDeprecated              = { link = "PmenuExtra" },
+    BlinkCmpLabelMatch                   = { link = "Pmenu" },
+    BlinkCmpLabelDetail                  = { link = "PmenuExtra" },
+    BlinkCmpLabelDescription             = { link = "PmenuExtra" },
+    BlinkCmpKind                         = { link = "PmenuKind" },
+    BlinkCmpSource                       = { link = "PmenuExtra" },
+    BlinkCmpGhostText                    = { link = "NonText" },
+    BlinkCmpDoc                          = { link = "NormalFloat" },
+    BlinkCmpDocBorder                    = { link = "NormalFloat" },
+    BlinkCmpDocSeparator                 = { link = "NormalFloat" },
+    BlinkCmpDocCursorLine                = { link = "Visual" },
+    BlinkCmpSignatureHelp                = { link = "NormalFloat" },
+    BlinkCmpSignatureHelpBorder          = { link = "NormalFloat" },
+    BlinkCmpSignatureHelpActiveParameter = { link = "LspSignatureActiveParameter" },
 
     -- nvim-telescope/telescope.nvim
     TelescopeBorder = { link = "Grey" },
