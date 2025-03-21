@@ -65,6 +65,7 @@ Supported Plugins:
 - [neorg](https://github.com/nvim-neorg/neorg)
 - [headlines.nvim](https://github.com/lukas-reineke/headlines.nvim/)
 - [lualine](https://github.com/nvim-lualine/lualine.nvim/tree/master)
+- [noice.nvim](https://github.com/folke/noice.nvim)
 - and many more ...
 
 Please feel free to open an issue if you want some features or other plugins to be included.
