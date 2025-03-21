@@ -145,6 +145,7 @@ function groups.get(contrast)
     Whitespace = { fg = colors.bg5 }, -- '~' and '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line).
     SpecialKey = { fg = colors.bg5 }, -- Meta and special keys listed with ":map", also for text used to show unprintable characters in the text, 'listchars'. Generally: text that is displayed differently from what it really is.
     Title = { fg = colors.orange, bold = true }, -- titles for output from ":set all", ":autocmd" etc.
+    Border = { fg = colors.aqua },
     WinSeparator = { fg = colors.bg5 },
 
     -- Popup menu
@@ -158,7 +159,7 @@ function groups.get(contrast)
     NormalNC = { link = "Normal" },
     NormalFloat = { fg = colors.fg1, bg = colors.bg3 },
     FloatTitle = { link = "Title" },
-    FloatBorder = { fg = colors.cyan },
+    FloatBorder = { link = "Border" },
 
     Question = { fg = colors.yellow }, -- hit-enter prompt and yes/no questions
 
