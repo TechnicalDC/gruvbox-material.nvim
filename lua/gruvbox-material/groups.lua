@@ -689,7 +689,7 @@ function groups.get(contrast)
     BlinkCmpKindTypeParameter            = { link = "BlinkCmpKindInterface" },
 
     -- folke/snacks.nvim
-    SnacksPickerFile               = { link = "Normal" },
+    SnacksPickerFile               = { fg = colors.fg0 },
     SnacksBackdrop                 = { bg   = "#000000" },
     SnacksPickerBold               = { link = "Bold"                        },
     SnacksPickerItalic             = { link = "Italic"                      },
