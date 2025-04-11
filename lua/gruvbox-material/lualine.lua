@@ -8,29 +8,29 @@ function M.theme(contrast)
   local colors = g_colors.get(vim.o.background, contrast)
   return {
     normal = {
-      a = { fg = colors.bg_statusline1, bg = colors.green },
+      a = { fg = colors.bg_statusline1, bg = colors.green , bold = true},
       b = { fg = colors.fg0, bg = colors.bg_statusline1 },
-      c = { fg = "NONE", bg = "NONE" },
+      c = { fg = "NONE", bg = colors.bg_statusline1},
     },
     insert = {
-      a = { fg = colors.bg_statusline1, bg = colors.blue },
+      a = { fg = colors.bg_statusline1, bg = colors.blue , bold = true},
       b = { fg = colors.fg0, bg = colors.bg_statusline1 },
-      c = { fg = "NONE", bg = "NONE" },
+      c = { fg = "NONE", bg = colors.bg_statusline1},
     },
     visual = {
-      a = { fg = colors.bg_statusline1, bg = colors.yellow },
+      a = { fg = colors.bg_statusline1, bg = colors.yellow , bold = true},
       b = { fg = colors.fg0, bg = colors.bg_statusline1 },
-      c = { fg = "NONE", bg = "NONE" },
+      c = { fg = "NONE", bg = colors.bg_statusline1},
     },
     replace = {
-      a = { fg = colors.bg_statusline1, bg = colors.red },
+      a = { fg = colors.bg_statusline1, bg = colors.red , bold = true},
       b = { fg = colors.fg0, bg = colors.bg_statusline1 },
-      c = { fg = "NONE", bg = "NONE" },
+      c = { fg = "NONE", bg = colors.bg_statusline1},
     },
     command = {
-      a = { fg = colors.bg_statusline1, bg = colors.aqua },
+      a = { fg = colors.bg_statusline1, bg = colors.aqua , bold = true},
       b = { fg = colors.fg0, bg = colors.bg_statusline1 },
-      c = { fg = "NONE", bg = "NONE" },
+      c = { fg = "NONE", bg = colors.bg_statusline1},
     },
     inactive = {
       a = { fg = colors.fg0, bg = "NONE" },
