@@ -691,6 +691,7 @@ function groups.get(contrast)
       -- folke/snacks.nvim
       SnacksPickerFile               = { fg = colors.fg0 },
       SnacksBackdrop                 = { link = "Normal" },
+      SnacksBackdrop_000000          = { link = "Normal" },
       SnacksPickerBold               = { link = "Bold"                        },
       SnacksPickerItalic             = { link = "Italic"                      },
       SnacksPickerGitScope           = { link = "Italic"                      },
