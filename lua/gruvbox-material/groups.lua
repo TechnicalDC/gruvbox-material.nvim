@@ -675,7 +675,7 @@ function groups.get(contrast)
       BlinkCmpKindUnit                     = { fg   = colors.green },
       BlinkCmpKindValue                    = { link = "BlinkCmpKindMethod" },
       BlinkCmpKindEnum                     = { fg   = colors.red },
-      BlinkCmpKindKeyword                  = { link = "BlinkCmpKindKindEnum" },
+      BlinkCmpKindKeyword                  = { link = "BlinkCmpKindEnum" },
       BlinkCmpKindSnippet                  = { link = "BlinkCmpKindUnit" },
       BlinkCmpKindColor                    = { link = "BlinkCmpKindInterface" },
       BlinkCmpKindFile                     = { link = "BlinkCmpKindVariable" },
